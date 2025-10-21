@@ -3,6 +3,8 @@
 <img width="1400" height="700" alt="image" src="https://github.com/user-attachments/assets/298ab2fe-f71b-49bb-a092-a47ddcbf3588" />
 
 ## Introduction
+A data science and machine learning project exploring the **IMDB (Internet Movie Database)** dataset to analyze movie trends, build predictive models, and create a content-based movie recommendation system.
+
 
 ### Dataset Schema:
 

@@ -31,31 +31,27 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 
 **Model:** `LinearRegression()` from `sklearn.linear_model`
 
-**Result:**
+**Example Prediction Result:**
 - Predicted movies in 2020: **~327**
 - Actual movies released (Google data): **329**
-- **Coefficient:** 7.41 → Indicates steady yearly growth in production.
 
-✅ *The model achieved excellent predictive accuracy on historical data.*
-
----
+**Model Remarks:**
+The model showed excellent predictive accuracy, by predicting total movies produced in the future with **99%** accuracy.
 
 ### 🔹 Model 2: Predicting Movie Popularity Score Based on Budget
 
 **Objective:** Predict movie **popularity score** using its **budget**.  
 - **Train/Test Split:** 70% / 30%
 - **Input:** Budget  
-- **Target:** Popularity
+- **Output:** Popularity
 
-**Model Evaluation:**
-- **Intercept:** 0.667  
-- **Coefficient:** 1.89 × 10⁻⁸  
-- **RMSE:** 1.698 → Indicates low error and high accuracy.
+**Model:** `LinearRegression()` from `sklearn.linear_model`
 
-**Example Prediction:**
+**Example Prediction Result:**
 > For a movie with a $280 million budget, predicted popularity score ≈ **6.0**
 
-✅ *Helps estimate how budget influences potential popularity.*
+**Model Remarks:**
+This model helps estimate how budget influences potential popularity of a movie.
 
 ## Movie Recommendation Systems
 
@@ -95,14 +91,12 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 **Example Input:**
 > `"Furious"`
 
-**Output Suggestions:**
-- Furious 7  
-- Fast & Furious  
-- The Fast and the Furious  
-- Fast & Furious 6  
-- 2 Fast 2 Furious  
-
-✅ *Allows flexible movie title matching even with typos or partial inputs.*
+> **Output Suggestions:**
+> - Furious 7  
+> - Fast & Furious  
+> - The Fast and the Furious  
+> - Fast & Furious 6  
+> - 2 Fast 2 Furious  
 
 ---
 

@@ -3,7 +3,7 @@
 <img width="1400" height="700" alt="image" src="https://github.com/user-attachments/assets/298ab2fe-f71b-49bb-a092-a47ddcbf3588" />
 
 ## Introduction
-A data science and machine learning project exploring the **IMDB (Internet Movie Database)** dataset to analyze movie trends, build predictive models, and create a content-based movie recommendation system.
+A data science and machine learning project exploring the **IMDB (Internet Movie Database)** dataset to analyze movie trends, build predictive models, create a content-based movie recommendation system. and visualize film keywords through word clouds.
 
 
 ### Dataset Schema:
@@ -19,6 +19,43 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
  3. What is the Average Running Time Of All the Movies?
  4. How does the budget changes throughout the years?
  5. What should be an appropriate budget for a movie to succeed?
+
+
+## 📈 Linear Regression Models
+
+### 🔹 Model 1 — Predicting Number of Movies per Year
+
+**Objective:** Predict the total number of movies produced each year.  
+- **Input Feature:** Year  
+- **Output:** Number of movies released  
+
+**Model:** `LinearRegression()` from `sklearn.linear_model`
+
+**Result:**
+- Predicted movies in 2020: **~327**
+- Actual movies released (Google data): **329**
+- **Coefficient:** 7.41 → Indicates steady yearly growth in production.
+
+✅ *The model achieved excellent predictive accuracy on historical data.*
+
+---
+
+### 🔹 Model 2 — Predicting Movie Popularity Based on Budget
+
+**Objective:** Predict movie **popularity score** using its **budget**.  
+- **Train/Test Split:** 70% / 30%
+- **Input:** Budget  
+- **Target:** Popularity
+
+**Model Evaluation:**
+- **Intercept:** 0.667  
+- **Coefficient:** 1.89 × 10⁻⁸  
+- **RMSE:** 1.698 → Indicates low error and high accuracy.
+
+**Example Prediction:**
+> For a movie with a $280 million budget, predicted popularity score ≈ **6.0**
+
+✅ *Helps estimate how budget influences potential popularity.*
 
 
 ## Authors

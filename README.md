@@ -23,7 +23,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 
 ## 📈 Linear Regression Models
 
-### 🔹 Model 1 — Predicting Number of Movies per Year
+### 🔹 Model 1: Predicting Number of Movies per Year
 
 **Objective:** Predict the total number of movies produced each year.  
 - **Input Feature:** Year  
@@ -40,7 +40,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 
 ---
 
-### 🔹 Model 2 — Predicting Movie Popularity Score Based on Budget
+### 🔹 Model 2: Predicting Movie Popularity Score Based on Budget
 
 **Objective:** Predict movie **popularity score** using its **budget**.  
 - **Train/Test Split:** 70% / 30%

@@ -4,9 +4,9 @@
 
 ## Introduction
 
-### Database Schema:
+### Dataset Schema:
 
-The movie dataset, which is originally from Kaggle, was cleaned and provided by Udacity. This data set contains information about 5,000 movies collected from The Movie Database (TMDb) and the whole dataset duration covers from 1960 to 2015. Contains data such as `title, cast, director, runtime, budget, revenue, release year` etc. 
+The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata),** was cleaned and provided by Udacity. This data set contains information about 5,000 movies collected from The Movie Database (TMDb) and the whole dataset duration covers from 1960 to 2015. Contains data such as `title, cast, director, runtime, budget, revenue, release year` etc. 
 - Certain columns, like `‘cast’` and `‘genres’`, contain multiple values separated by pipe (|) characters.
 - There are some odd characters in the `‘cast’` column. Nothing to care much of, I leave them as is.
 - The final two columns ending with `“_adj"` show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time.

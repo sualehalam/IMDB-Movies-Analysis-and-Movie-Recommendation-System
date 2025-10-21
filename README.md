@@ -55,7 +55,7 @@ This model helps estimate how budget influences potential popularity of a movie.
 
 ## Movie Recommendation Systems
 
-**Two different** recommendation approaches were developed:
+This project features **two** different movie recommendation techniques: one that finds movies with _similar_ content using _keywords_, and another that matches movie titles based on _text similarity_.
 
 ### 1️⃣ Keyword-Based Recommendation System
 
@@ -76,7 +76,9 @@ This model helps estimate how budget influences potential popularity of a movie.
 > - Justice League: Crisis on Two Earths  
 > - The Matrix
 
-✅ *Provides content-based recommendations using keyword matching.*
+**Recommendation Algorithm Remarks:**
+
+This recommendation provides remarkable content-based movies recommendation using keyword matching.
 
 ---
 
@@ -86,7 +88,7 @@ This model helps estimate how budget influences potential popularity of a movie.
 
 **Technique:**
 - Uses `fuzzywuzzy` library for partial ratio string matching.
-- Recommends movies whose titles share ≥90% similarity.
+- Recommends movies whose titles share ≥**90%** similarity.
 
 **Example Input:**
 > `"Furious"`
@@ -97,6 +99,10 @@ This model helps estimate how budget influences potential popularity of a movie.
 > - The Fast and the Furious  
 > - Fast & Furious 6  
 > - 2 Fast 2 Furious  
+
+**Recommendation Algorithm Remarks:**
+
+This recommendation technique allows flexible movie title matching even with typos or partial inputs.
 
 ---
 

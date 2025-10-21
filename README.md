@@ -40,7 +40,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 
 ---
 
-### 🔹 Model 2 — Predicting Movie Popularity Based on Budget
+### 🔹 Model 2 — Predicting Movie Popularity Score Based on Budget
 
 **Objective:** Predict movie **popularity score** using its **budget**.  
 - **Train/Test Split:** 70% / 30%
@@ -56,6 +56,55 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 > For a movie with a $280 million budget, predicted popularity score ≈ **6.0**
 
 ✅ *Helps estimate how budget influences potential popularity.*
+
+## 🎯 Movie Recommendation Systems
+
+Two different recommendation approaches were developed:
+
+### 1️⃣ Keyword-Based Recommendation System
+
+**Goal:** Recommend similar movies based on shared keywords (themes, genres, plots).
+
+**Technique:**
+- Extract keywords for each movie.
+- Split keyword strings into multiple fields.
+- Compare selected movie keywords with others.
+- Recommend top 5 matching titles.
+
+**Example:**
+> Input Movie: **Terminator Genisys**  
+> **Top 5 Recommendations:**
+> - Interstellar  
+> - Terminator Salvation  
+> - Megamind  
+> - Justice League: Crisis on Two Earths  
+> - The Matrix
+
+✅ *Provides content-based recommendations using keyword matching.*
+
+---
+
+### 2️⃣ Fuzzy Matching Movie Recommender
+
+**Goal:** Suggest movies with titles similar to the user’s input (string similarity).
+
+**Technique:**
+- Uses `fuzzywuzzy` library for partial ratio string matching.
+- Recommends movies whose titles share ≥90% similarity.
+
+**Example Input:**
+> `"Furious"`
+
+**Output Suggestions:**
+- Furious 7  
+- Fast & Furious  
+- The Fast and the Furious  
+- Fast & Furious 6  
+- 2 Fast 2 Furious  
+
+✅ *Allows flexible movie title matching even with typos or partial inputs.*
+
+---
 
 
 ## Authors

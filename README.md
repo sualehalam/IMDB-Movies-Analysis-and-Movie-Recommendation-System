@@ -11,6 +11,13 @@ The movie dataset, which is originally from Kaggle, was cleaned and provided by 
 - There are some odd characters in the `‘cast’` column. Nothing to care much of, I leave them as is.
 - The final two columns ending with `“_adj"` show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time.
 
+## Research Questions for Analysis
+ 1. What were the Top 5 Genres throughout the years?
+ 2. How did the amount of movies produced changed over time?
+ 3. What is the Average Running Time Of All the Movies?
+ 4. How does the budget changes throughout the years?
+ 5. What should be an appropriate budget for a movie to succeed?
+
 
 ## Authors
 

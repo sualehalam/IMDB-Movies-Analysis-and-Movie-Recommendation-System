@@ -1,4 +1,4 @@
-# IMDB Analysis and Movies Recommendation System
+# IMDB Analysis & Movies Recommendation System
 
 <img width="1400" height="700" alt="image" src="https://github.com/user-attachments/assets/298ab2fe-f71b-49bb-a092-a47ddcbf3588" />
 
@@ -25,7 +25,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 
 ### 🔹 Model 1: Predicting Number of Movies per Year
 
-**Objective:** Predict the total number of movies produced each year.  
+**Objective:** Predict the **total number of movies** produced each **year**.  
 - **Input Feature:** Year  
 - **Output:** Number of movies released  
 

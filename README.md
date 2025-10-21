@@ -57,7 +57,7 @@ This model helps estimate how budget influences potential popularity of a partic
 
 This project features **two** different movie recommendation techniques: one that finds movies with _similar_ content using _keywords_, and another that matches movie titles based on _text similarity_.
 
-### 1️⃣ Keyword-Based Recommendation System
+### 1️. Keyword-Based Recommendation System
 
 **Goal:** Recommend similar movies based on shared keywords (themes, genres, plots).
 
@@ -82,7 +82,7 @@ This recommendation provides remarkable content-based movies recommendation usin
 
 ---
 
-### 2️⃣ Fuzzy Matching Movie Recommender
+### 2. Fuzzy Matching Movie Recommender
 
 **Goal:** Suggest movies with titles similar to the user’s input (string similarity).
 

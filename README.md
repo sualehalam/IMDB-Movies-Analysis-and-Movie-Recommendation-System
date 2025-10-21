@@ -106,7 +106,7 @@ This recommendation technique allows flexible movie title matching even with typ
 
 ---
 
-## Conclusions
+## Conclusion
 
 - The first research question **"What were the Top 5 Genres throughout the years?"** has shown useful results, as the most popular genre turned out to be **Drama**. Perhaps it is because Adventure and Science Fiction movies are more expensive to produce so they are more rarely made than **Drama, Comedy, Thriller**. Believe it or not, this data could be extremey useful for the 'Production Companies', because now they know which type of movies tend to be more popular among the masses and this could help them to drive more potential customers and eventually more sales. 
 
@@ -117,6 +117,11 @@ This recommendation technique allows flexible movie title matching even with typ
 - The fourth research question **"How does the budget changes throughout the years?"** shows quite useful results to the users because users can observe that throughout the years the budget has been increasing throughout the years and suddenly skyrockets in the year 2011, which is considered as the best year for cinema according to Wikipedia. In 2011, **Pirates of the Caribbean: On Stranger Tides** is the maximum budget movie till this day, with a maximum budget of 380 Million Dollars USD.
 
 - The fifth research question **"What should be an appropriate budget for a movie to succeed?"** has shown surprising results. Some useful deductions which are clearly evident from the graph are it's not necessary for a movie to become popular and succeed even if it has a higher budget and vice versa.
+
+## Limitation:
+1. Many entries which contained null (NaN) values had been removed from the dataset, so the size of the dataset has been significantly reduced and this will greatly affect the results accuracy
+2. The results obtained from our linear regression model using budget for predicting movies popularity score is only done for educational purposes only and in reality many other external factors affect movies popularity like Time of Release, Marketing, Cast of Movie, Storyline, and many more.
+
 
 ## Authors
 

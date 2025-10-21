@@ -119,7 +119,7 @@ This recommendation technique allows flexible movie title matching even with typ
 - The fifth research question **"What should be an appropriate budget for a movie to succeed?"** has shown surprising results. Some useful deductions which are clearly evident from the graph are it's not necessary for a movie to become popular and succeed even if it has a higher budget and vice versa.
 
 ## Limitation:
-1. Many entries which contained null (NaN) values had been removed from the dataset, so the size of the dataset has been significantly reduced and this will greatly affect the results accuracy
+1. Many entries which contained null (NaN) values had been removed from the dataset, so the size of the dataset has been significantly reduced and this will greatly affect the accuracy of our results.
 2. The results obtained from our linear regression model using budget for predicting movies popularity score is only done for educational purposes only and in reality many other external factors affect movies popularity like Time of Release, Marketing, Cast of Movie, Storyline, and many more.
 
 

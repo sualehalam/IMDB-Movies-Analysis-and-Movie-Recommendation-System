@@ -51,7 +51,7 @@ The model showed excellent predictive accuracy, by predicting total movies produ
 > For a movie with a $280 million budget, predicted popularity score ≈ **6.0**
 
 **Model Remarks:**
-This model helps estimate how budget influences potential popularity of a movie.
+This model helps estimate how budget influences potential popularity of a particular movie.
 
 ## Movie Recommendation Systems
 

@@ -1,4 +1,4 @@
-# IMDB Movies Analysis and Movie Recommendation System
+# IMDB Analysis and Movies Recommendation System
 
 
 ## Authors

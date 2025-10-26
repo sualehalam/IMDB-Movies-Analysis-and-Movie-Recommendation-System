@@ -135,6 +135,11 @@ This visualization highlights the most frequently occurring movie-related terms 
 1. Many entries which contained null (NaN) values had been removed from the dataset, so the size of the dataset has been significantly reduced and this will greatly affect the accuracy of our results.
 2. The results obtained from our linear regression model using budget for predicting movies popularity score is only done for educational purposes only and in reality many other external factors affect movies popularity like Time of Release, Marketing, Cast of Movie, Storyline, and many more.
 
+## Future Work:
+1. Create a web dashboard using Streamlit or Flask.
+2. Expand dataset with post-2015 movies for an updated movie analysis.
+3. Add model evaluation metrics ($R^2$, MAE) for deeper insights.
+
 
 ## Authors
 

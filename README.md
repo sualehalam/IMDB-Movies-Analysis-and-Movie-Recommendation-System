@@ -112,7 +112,7 @@ To better understand the most common keywords and themes in the movie dataset,  
 
 This visualization highlights the most frequently occurring movie-related terms — _bigger words indicate more frequent appearances_.
 
-### Movie Keyword Word Cloud for Spectre (2015) movie
+### Movie Keyword Word Cloud for movie Spectre (2015)
 
 <img width="300" height="540" alt="spectre" src="https://github.com/user-attachments/assets/7644d75c-3a97-4117-b6be-b9006c20fd3e" />
 

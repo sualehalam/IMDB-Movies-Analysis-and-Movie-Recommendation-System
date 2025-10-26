@@ -110,7 +110,7 @@ This recommendation technique allows flexible movie title matching even with typ
 
 To better understand the most common keywords and themes in the movie dataset,  a **Word Cloud** was generated from the movie keywords.  
 
-This visualization highlights the most frequently occurring movie-related terms — bigger words indicate more frequent appearances across the dataset.
+This visualization highlights the most frequently occurring movie-related terms — _bigger words indicate more frequent appearances_.
 
 ### Movie Keyword Word Cloud for Spectre (2015) movie
 

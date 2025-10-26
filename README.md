@@ -13,6 +13,16 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 - There are some odd characters in the `‘cast’` column. Nothing to care much of, I leave them as is.
 - The final two columns ending with `“_adj"` show the budget and revenue of the associated movie in terms of 2010 dollars, accounting for inflation over time.
 
+##  Project Workflow:
+
+1. **Data Preprocessing** – Cleaned the dataset (handled NaN values, parsed genres, normalized columns).
+2. **Exploratory Data Analysis** – Identified trends, top genres, budgets, and durations.
+3. **Modeling** – Built linear regression models to analyze patterns (movies/year, popularity vs budget).
+4. **Recommendations** – Implemented:
+   - Keyword-based recommender (_content similarity_)
+   - Fuzzy title-based recommender (_string matching_)
+5. **Visualization** – Created movie word clouds and plotted key insights.
+
 ## Research Questions for Analysis
  1. What were the Top 5 Genres throughout the years?
  2. How did the amount of movies produced changed over time?

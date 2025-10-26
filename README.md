@@ -106,6 +106,19 @@ This recommendation technique allows flexible movie title matching even with typ
 
 ---
 
+## Word Cloud Visualization
+
+To better understand the most common keywords and themes in the movie dataset,  a **Word Cloud** was generated from the movie keywords.  
+
+This visualization highlights the most frequently occurring movie-related terms — bigger words indicate more frequent appearances across the dataset.
+
+### Movie Keyword Word Cloud for Spectre (2015) movie
+
+<img width="300" height="540" alt="spectre" src="https://github.com/user-attachments/assets/7644d75c-3a97-4117-b6be-b9006c20fd3e" />
+
+---
+
+
 ## Conclusion
 
 - The first research question **"What were the Top 5 Genres throughout the years?"** has shown useful results, as the most popular genre turned out to be **Drama**. Perhaps it is because Adventure and Science Fiction movies are more expensive to produce so they are more rarely made than **Drama, Comedy, Thriller**. Believe it or not, this data could be extremey useful for the 'Production Companies', because now they know which type of movies tend to be more popular among the masses and this could help them to drive more potential customers and eventually more sales. 

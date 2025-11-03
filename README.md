@@ -97,7 +97,7 @@ This recommendation provides remarkable content-based movies recommendation usin
 **Goal:** Suggest movies with titles similar to the user’s input (string similarity).
 
 **Technique:**
-- Uses `fuzzywuzzy` library for partial ratio string matching.
+- Uses `fuzzywuzzy` library for finding partial string matching score.
 - Recommends movies whose titles share ≥**90%** similarity.
 
 **Example Input:**

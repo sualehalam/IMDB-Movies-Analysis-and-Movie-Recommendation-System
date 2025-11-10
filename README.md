@@ -2,7 +2,7 @@
 
 <img width="1400" height="700" alt="image" src="https://github.com/user-attachments/assets/298ab2fe-f71b-49bb-a092-a47ddcbf3588" />
 
-## Introduction
+## Introduction:
 A data science and machine learning project exploring the **IMDB (Internet Movie Database)** dataset to analyze movie trends, build predictive models, create a content-based movie recommendation system. and visualize film keywords through word clouds.
 
 
@@ -23,7 +23,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
    - Fuzzy title-based recommender (_string matching_)
 5. **Visualization** – Created movie word clouds and plotted key insights.
 
-## Research Questions for Analysis
+## Research Questions for Analysis:
  1. What were the Top 5 Genres throughout the years?
  2. How did the amount of movies produced changed over time?
  3. What is the Average Running Time Of All the Movies?

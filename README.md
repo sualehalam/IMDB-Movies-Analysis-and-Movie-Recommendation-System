@@ -141,7 +141,7 @@ This visualization highlights the most frequently occurring movie-related terms 
 
 - The fifth research question **"What should be an appropriate budget for a movie to succeed?"** has shown surprising results. Some useful deductions which are clearly evident from the graph are it's not necessary for a movie to become popular and succeed even if it has a higher budget and vice versa.
 
-## Limitation:
+## Limitations:
 1. Many entries which contained _null (NaN)_ values had been removed from the dataset, so the size of the dataset has been significantly reduced and this will greatly affect the accuracy of our results.
 2. The results obtained from our linear regression model using budget for predicting movies popularity score is only done for educational purposes only and in reality many other external factors affect movies popularity like Time of Release, Marketing, Cast of Movie, Storyline, and many more.
 

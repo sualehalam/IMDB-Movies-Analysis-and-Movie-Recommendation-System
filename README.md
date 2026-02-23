@@ -46,7 +46,7 @@ The movie dataset, which is originally from **[Kaggle](https://www.kaggle.com/da
 - Actual movies released (Google data): **329**
 
 **Model Remarks:**
-The model showed excellent predictive accuracy, by predicting total movies produced in the future with **99%** accuracy.
+The model showed excellent predictive accuracy, by predicting total movies produced in the future with approximately **90%** accuracy.
 
 ### 🔹 Model 2: Predicting Movie Popularity Score Based on Budget
 
